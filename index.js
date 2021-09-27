@@ -40,7 +40,43 @@ function myfun(s)
 
     }
 }
+function start()
+{
+    startdt();
+    startclk();
+    
+}
 
+function startclk()
+{
+    let date = new Date();
+    let h = date.getHours();
+    let m = date.getMinutes();
+    let s = date.getSeconds();
+    m = refine(m);
+    s = refine(s);
+    document.getElementById("clk").innerHTML=h+":"+m+":"+s;
+    setInterval(startclk,1000);
+    
+}
+
+function startdt()
+{
+    let date = new Date();
+    let d=refine(date.getDate());
+    let mo=refine(date.getMonth());
+    let y=date.getFullYear();
+    document.getElementById("dt").innerHTML=d+"/"+mo+"/"+y;
+    // setInterval(startdt,1000);
+    
+}
+
+function refine(s)
+{
+    if(s<10){
+    s="0"+s;}
+    return s;
+}
 // var i=0;
 // var txt = 'Hi There, My Name is Aman Izardar.';
 // var speed = 50;
@@ -52,4 +88,9 @@ function myfun(s)
 //     setTimeout(typeWriter, speed);
 //   }
 // }
+
+
+// tring 
+
+// End of Trying
 

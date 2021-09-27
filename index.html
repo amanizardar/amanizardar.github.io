@@ -7,9 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
     <title>Portfolio</title>
 </head>
-<body>
+<body onload="start()">
     <div id="navbar">    
             <a class="nav" href="#home" onclick="myfun('home')"> <i class="fa fa-fw fa-home"></i>Home &nbsp </a> 
             <a class="nav" href="#Education" onclick="myfun('Education')"><i class="fa fa-fw fa-graduation-cap"></i>Education &nbsp</a>
@@ -79,7 +80,7 @@
         
     </div>
 
-
+  
 
     <div class="home_content" >
         <div class="typing-demo">
@@ -292,6 +293,18 @@
         <!-- <iframe src="Media/RESUME-Aman Izardar.pdf" width="100%" height="1000px">
         </iframe> -->
     </div>
+
+    <div class="time" id="clock">
+        <span> Your Time Now is: &nbsp;<span id="clk"></span></span>
+        <br>
+        <span> Your Date is:&nbsp;<span id="dt"></span></span>
+
+    </div>
+    
+
+    <!-- trying new things -->
+    
+    <!--  -->
 
 
     <script src="index.js"></script>
