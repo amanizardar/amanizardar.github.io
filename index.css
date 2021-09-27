@@ -90,6 +90,25 @@ hr.dotted {
     background-image: linear-gradient(to right, transparent, rgb(14, 12, 146), transparent); 
   }
 
+.home-inside0
+{
+    margin: 10px;
+    padding: 10px;
+    background-image: linear-gradient(to right, transparent, #fac0c0, transparent); 
+
+}
+
+.home-inside,.home-inside1,.home-inside2
+{
+    /* float: left; */
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    /* text-align: center; */
+    background-image: linear-gradient(to right, transparent, rgb(131, 221, 202), transparent); 
+
+}
+
 .education-inner
 {
     text-align: center;
