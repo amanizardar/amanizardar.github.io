@@ -53,6 +53,7 @@ function startclk()
     let h = date.getHours();
     let m = date.getMinutes();
     let s = date.getSeconds();
+    h = refine(h);
     m = refine(m);
     s = refine(s);
     document.getElementById("clk").innerHTML=h+":"+m+":"+s;
