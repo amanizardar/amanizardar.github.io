@@ -338,9 +338,7 @@ font-size: 1em;
 
 @media only screen and (max-width: 768px) {
 
-    body {
-        background-color: lightblue;
-      }
+    
     
     #navbar
     {
@@ -348,15 +346,19 @@ font-size: 1em;
         text-align: center;
     }
     
-    #name,#subname
+    #fotu
     {
-        text-align: left;
+        max-width: 100%;
+        align-items: center;
+        border: 1px solid black;
+        margin-left: 50px;
     }
       
     .left_window
     {
     width: 100%;
     float: none;
+    margin-left: 10px;
     }
     .right_window
     {
@@ -374,6 +376,30 @@ font-size: 1em;
     margin: 0px;
     
     }
+
+    .links
+    {
+    margin-top: 0px;
+    padding: 10px 50px;
+    }
+
+    .typing-demo {
+        animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+        font-family: monospace;
+        font-size: .75em;
+      }
+
+      .pro-ins 
+    {
+    
+    border-radius: 0%;
+    margin-right: 25px;
+    
+    }
+
+
+      
+   
 
     
     
