@@ -346,7 +346,10 @@ font-size: 1em;
         max-width: 100%;
         align-items: center;
         border: 1px solid black;
-        margin-left: 40px;
+        
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
       
     .left_window
@@ -354,6 +357,8 @@ font-size: 1em;
     width: 100%;
     float: none;
     margin-left: 10px;
+    
+    
     }
     .right_window
     {
@@ -381,7 +386,7 @@ font-size: 1em;
     .typing-demo {
         animation: typing 2s steps(22), blink .5s step-end infinite alternate;
         font-family: monospace;
-        font-size: .60em;
+        font-size: .85em;
       }
 
       .pro-ins 
