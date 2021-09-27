@@ -329,11 +329,6 @@ font-size: 1em;
 
 /* Media Queries */
 
-/* @media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
-  } */
 
 
 @media only screen and (max-width: 768px) {
@@ -391,11 +386,16 @@ font-size: 1em;
 
       .pro-ins 
     {
-    
     border-radius: 0%;
     margin-right: 25px;
-    
     }
+
+    .form
+    {
+    margin-right: 30px;
+    }
+
+    
 
 
       
