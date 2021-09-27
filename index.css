@@ -381,7 +381,7 @@ font-size: 1em;
     .typing-demo {
         animation: typing 2s steps(22), blink .5s step-end infinite alternate;
         font-family: monospace;
-        font-size: .70em;
+        font-size: .60em;
       }
 
       .pro-ins 
