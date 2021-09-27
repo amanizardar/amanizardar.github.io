@@ -68,6 +68,7 @@ font-style: italic;
 img
 {
     border-radius: 100%;
+    max-width: 100%;
 }
 #name
 {
@@ -284,6 +285,29 @@ font-size: 1em;
     }
   }
 
+  /* cv */
+  .pdf
+  {
+    background-image: linear-gradient(to right, transparent, rgb(255, 226, 173), transparent); 
+    text-align: center;
+    align-items: center;
+    margin: 1px;
+    padding: 10px;
+      
+  }
+  #cv
+  {
+    
+    text-decoration: none;
+    color: rgb(199, 69, 69);
+    border: none;
+    background: none;
+    font-size: large; 
+    font-style: italic;
+  }
+  /* End cv */
+
+
   /* Clock */
 
   .time
@@ -303,7 +327,57 @@ font-size: 1em;
   /* End Clock */
 
 
-/* trying  */
+/* Media Queries */
 
-/* end trying */
+/* @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  } */
+
+
+@media only screen and (max-width: 768px) {
+
+    body {
+        background-color: lightblue;
+      }
+    
+    #navbar
+    {
+        width: 94%;
+        text-align: center;
+    }
+    
+    #name,#subname
+    {
+        text-align: left;
+    }
+      
+    .left_window
+    {
+    width: 100%;
+    float: none;
+    }
+    .right_window
+    {
+    width: 100%;
+    margin-left: 0px;
+    }
+
+    .home-inside0
+    {
+    margin: 0px;
+    }
+    .home-inside,.home-inside1,.home-inside2
+    {
+    display: block;
+    margin: 0px;
+    
+    }
+
+    
+    
+}
+
+/* End Media Queries */
   
