@@ -346,7 +346,7 @@ font-size: 1em;
         max-width: 100%;
         align-items: center;
         border: 1px solid black;
-        margin-left: 50px;
+        margin-left: 40px;
     }
       
     .left_window
@@ -381,7 +381,7 @@ font-size: 1em;
     .typing-demo {
         animation: typing 2s steps(22), blink .5s step-end infinite alternate;
         font-family: monospace;
-        font-size: .75em;
+        font-size: .70em;
       }
 
       .pro-ins 
