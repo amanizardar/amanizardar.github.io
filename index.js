@@ -57,7 +57,7 @@ function startclk() {
 function startdt() {
     let date = new Date();
     let d = refine(date.getDate());
-    let mo = refine(date.getMonth());
+    let mo = refine(date.getMonth()+1);
     let y = date.getFullYear();
     document.getElementById("dt").innerHTML = d + "/" + mo + "/" + y;
     // setInterval(startdt,1000);
